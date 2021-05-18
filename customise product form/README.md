@@ -12,15 +12,15 @@ This project is an attempt to build a responsive webpage that helps the client t
 
 <br>Desktop Version:</br>
 
-![](https://i.imgur.com/3feSLOR.png)
+![](https://i.imgur.com/gkCfUBP.png)
 
 
 <br>Ipad Version:</br>
 
-![](https://i.imgur.com/W7YQy4v.png)
+![](https://i.imgur.com/y5GFcgm.png)
 
 
 <br>Smartphone Version:</br>
 
-![](https://i.imgur.com/UmIzEzU.png)
+![](https://i.imgur.com/G5Ih7NQ.png)
 
