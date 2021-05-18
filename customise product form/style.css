@@ -92,7 +92,7 @@ main {
     color:rgb(29, 175, 0);
 }
 
-#legend {
+.legend {
     color: #06c;
     text-transform: uppercase;
     font-weight: bold;
@@ -291,6 +291,22 @@ main {
     background-color:rgb(29, 175, 0);
 }
 
+#scrollToTopBtn {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    color: rgb(255, 230, 5);
+    cursor: pointer;
+    font-size: 3rem;
+    line-height: 48px;
+    width: 48px;
+    position: absolute;
+    bottom: 3rem;
+    right: 2rem;
+}
+
+
+/* media queries */
 @media (max-width: 800px) {
     main {
         display: flex;

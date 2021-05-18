@@ -255,3 +255,17 @@ image.forEach((box) => {
 function rem() {
   image.forEach((rem) => (rem.style.border = 'none'))
 }
+
+
+//Go to top button:
+var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+var rootElement = document.documentElement;
+
+function scrollToTop() {
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+
+scrollToTopBtn.addEventListener("click", scrollToTop)

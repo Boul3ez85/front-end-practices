@@ -34,13 +34,13 @@
           <div class="customize--structure">
             <div class="customize--structure_field">
               <h4 class="field--title required">
-                Dimensions <span id="legend">A</span> et<span id="legend">B</span><i class="fas fa-times tick-check0"></i>
+                Dimensions <span class="legend">A</span> et<span class="legend">B</span><i class="fas fa-times tick-check0"></i>
               </h4>
               <input type="text" name="mesures" id="subject" placeholder="Exp: 2000 x 1100" maxlength="11" required/>
             </div>
             <div class="customize--structure_field">
               <h4 class="field--title required">
-                Couleur de mécanisme <span id="legend">C</span
+                Couleur de mécanisme <span class="legend">C</span
                 ><i class="fas fa-times tick-check"></i>
               </h4>
               <div class="field--select_color choice">
@@ -56,7 +56,7 @@
             </div>
             <div class="customize--structure_field">
               <h4 class="field--title required">
-                Personnaliser le lamberquin <span id="legend">D</span><i class="fas fa-times tick-check1"></i>
+                Personnaliser le lamberquin <span class="legend">D</span><i class="fas fa-times tick-check1"></i>
               </h4>
               <div class="field--select_shape choice">
                 <div class="first_shape">
@@ -169,7 +169,7 @@
           </div>
         </div>
       </section>
-      <section class="technic_description">
+      <div class="technic_description">
         <div class="tabset">
           <!-- Tab 1 -->
           <input type="radio" name="tabset" id="tab1" aria-controls="description1" checked/>
@@ -214,12 +214,12 @@
             </section>
           </div>
         </div>
-      </section>
+      </div>
       <!--user contact information-->
-      <section class="submit">
+      <div class="submit">
         <fieldset class="fieldset-border">
           <legend>Contacter nous :</legend>
-          <form action="">
+          <form>
             <div class="label-field">
               <label for="first-name" class="form--label">Nom<br />
                 <input type="text" name="first-name" id="first-name" class="form--input" placeholder="Votre Prénom" pattern="[A-Za-zÀ-ž\s]{3,}" maxlength="35" required/>
@@ -227,7 +227,7 @@
             </div>
             <div class="label-field">
               <label for="last-name" class="form--label">Prenom<br />
-                <input type="text" name="last-name" id="lasst-name" class="form--input" placeholder="Votre Nom" pattern="[A-Za-zÀ-ž\s]{3,}" maxlength="35" required/>
+                <input type="text" name="last-name" id="last-name" class="form--input" placeholder="Votre Nom" pattern="[A-Za-zÀ-ž\s]{3,}" maxlength="35" required/>
               </label>
             </div>
             <div class="label-field">
@@ -242,7 +242,8 @@
             </div>
           </form>
         </fieldset>
-      </section>
+      </div>
+      <button id="scrollToTopBtn" title="Go to top">☝️</button>
     </main>
     <script src="index.js"></script>
   </body>
