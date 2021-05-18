@@ -162,6 +162,16 @@ main {
     cursor: pointer;
 }
 
+.fa-chevron-circle-left {
+    padding-right: 20px;
+    color: #8d8d8d;
+}
+
+.fa-chevron-circle-right {
+    padding-left: 20px;
+    color: #8d8d8d;
+}
+
 .carousel__track {
     padding-left: 20px;
 }
@@ -291,18 +301,28 @@ main {
     background-color:rgb(29, 175, 0);
 }
 
-#scrollToTopBtn {
-    background-color: transparent;
+.scrollToTopBtn {
+    background-color: rgb(37, 34, 34);
     border: none;
     border-radius: 50%;
-    color: rgb(255, 230, 5);
+    color: rgb(255, 255, 255);
     cursor: pointer;
-    font-size: 3rem;
-    line-height: 48px;
-    width: 48px;
-    position: absolute;
+    font-size: 2.5rem;
+    line-height: 50px;
+    width: 60px;
+    padding-bottom: .75rem;
+    position: fixed;
     bottom: 3rem;
     right: 2rem;
+    z-index: 100;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all .5s ease;
+}
+
+.showBtn {
+    opacity: 1;
+    transform: translateY(0)
 }
 
 
