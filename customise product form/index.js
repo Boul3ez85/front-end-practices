@@ -37,7 +37,7 @@ greenButton(switchBackgroundColor5)
 // display valid and not valid choices
 const checks = document.querySelectorAll('.checkbox')
 const tick = document.querySelector('.tick-check')
-console.log(checks, tick)
+
 function checker() {
   checks.forEach((check) => {
     if (check.classList.contains('green')) {
@@ -103,6 +103,31 @@ function checker5() {
     }
   })
 }
+
+const tick0 = document.querySelector('.tick-check0')
+const dropdown = document.getElementById('subject')
+
+dropdown.addEventListener('click', () => {
+  console.log(dropdown.value === '0')
+  if (dropdown.value === '0') {
+    return
+  } else {
+    tick0.classList.remove('fa-times')
+    tick0.classList.add('fa-check')
+  }
+})
+const tick00 = document.querySelector('.tick-check00')
+const dropdown00 = document.getElementById('choose-leds')
+
+dropdown00.addEventListener('click', () => {
+  if (dropdown00.value === '0') {
+    return
+  } else {
+    tick00.classList.remove('fa-times')
+    tick00.classList.add('fa-check')
+  }
+})
+
 
 // carousel animation
 
@@ -215,4 +240,18 @@ function openCity(evt, cityName) {
   }
   document.getElementById(cityName).style.display = 'block'
   evt.currentTarget.className += ' active'
+}
+
+
+//Pick a carsouel color
+let image = document.querySelectorAll('li > img')
+image.forEach((box) => {
+  box.addEventListener('click', () => {
+    rem()
+    box.style.border = '3px solid green';
+  })
+})
+
+function rem() {
+  image.forEach((rem) => (rem.style.border = 'none'))
 }

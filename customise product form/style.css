@@ -57,7 +57,7 @@ main {
     justify-content: flex-start;
 }
 
-#mesures {
+#subject {
     width: 50%;
 }
 
@@ -169,6 +169,7 @@ main {
 .carousel__slide {
     margin-bottom: 1rem;
 }
+
 
 /* Style the buttons inside the tab */
 .tabset > input[type="radio"] {
@@ -333,7 +334,7 @@ main {
         padding-left: .5rem;
     }
 
-    #mesures {
+    #subject {
         width: 80%;
     }
 
